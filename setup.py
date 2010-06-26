@@ -10,7 +10,7 @@ __version__ = '0.4'
 
 # Distutils version
 METADATA = dict(
-	name = "pysmshosting",
+	name = "smshosting",
 	version = __version__,
 	py_modules = ['smshosting'],
 	author="Gianluca Urgese",
