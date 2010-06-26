@@ -1,0 +1,45 @@
+                                                                                                                        
+             ________  ________ _   _           _   _             
+            /  ___|  \/  /  ___| | | |         | | (_)            
+ _ __  _   _\ `--.| .  . \ `--.| |_| | ___  ___| |_ _ _ __   __ _ 
+| '_ \| | | |`--. \ |\/| |`--. \  _  |/ _ \/ __| __| | '_ \ / _` |
+| |_) | |_| /\__/ / |  | /\__/ / | | | (_) \__ \ |_| | | | | (_| |
+| .__/ \__, \____/\_|  |_|____/\_| |_/\___/|___/\__|_|_| |_|\__, |
+| |     __/ |                                                __/ |
+|_|    |___/                                                |___/ 
+
+Python Wrapper Library for Smshosting.it SOAP API
+
+Features:
+  Up-to-date with SMSHosting.it api.
+  Actively under development.
+  Supports all of the SMSHosting.it api endpoints.
+  
+
+Getting started:
+  This is a Python library that works with the SMSHosting.it API. This libraries uses SOAP, that’s not necessarily good but I just thought it fit better in to Python since XML-RPC is part of the standard python library. The format that the API functions return is a nested dictionary, it might change later to something more palatable. Other features include a streamlined authentication process and an integrated upload method. Anyway, this whole library came to be because I am working on a SMSHosting.it client that I will be releasing shortly i think. Here is how it works:
+
+
+Installing:  
+  You may also clone/download the source code and then execute:
+      python setup.py install (run as root)
+  If you wish you may also bundle the pySMSHosting package with your application.
+
+Souce code:
+  GitHub: <http://github.com/giasone/pySMSHosting> (questions/feature request/bug reports/anything else)
+
+TODO:
+  Python 3 support.
+  Streaming API support.
+  Cache system (memory, file, memcache client)
+  Replies managing
+
+Author: Gianluca Urgese <g.urgese@jasone.it>
+License: GPL v.2 http://www.gnu.org/licenses/gpl.txt
+Dependencies:
+  Python 2.5+
+  Simplejson <http://undefined.org/python/#simplejson>
+  SUDS <https://fedorahosted.org/suds/>
+    
+
+

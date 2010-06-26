@@ -1,0 +1,10 @@
+Metadata-Version: 0.4
+Name: pysmshosting
+Version: 0.4
+Summary:  pySMSHosting is complete and easy to use Python SOAP module to interact with SMSHosting.it API. 
+Home-page: http://github.com/giasone/pySMSHosting
+Author: Gianluca Urgese
+Author-email: g.urgese@jasone.it
+License: GNU/GPL version 2 
+Description: Python Wrapper Library for Smshosting.it SOAP API
+Platform: ALL
